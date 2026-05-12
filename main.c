@@ -1,24 +1,37 @@
-
-#include <stdio.h>
-
+#include<stdio.h>
 
 int main()
-
-{  
-
-int x=1,sum=0;
-
-
-
-
-for(x=1;x<=10;++x)
-
 {
-sum+=x;
 
-}
-printf("sum:%d",sum);
+int x;
+
+printf("Enter a  Number: ");
+
+scanf("%d",&x);
+
+if(x % 2==0)
+{
+
+
+printf("x is an even NUmber"); }
+
+
+
+
+else 
+{
+
+
+printf("x is an odd Number");}
+
+
 return 0;
+
+
+
+
+
+
 
 
 
